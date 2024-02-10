@@ -110,6 +110,12 @@ body {
     text-align: center;
     outline: none;
     border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card__cta:hover {
+    background-color: var(--very-dark-blue);
 }
 
 .cart-icon {
