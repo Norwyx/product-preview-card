@@ -134,6 +134,7 @@ body {
     
     .card__image {
         width: 50%;
+        line-height: 0;
     }
 
     .card__content {
