@@ -123,3 +123,47 @@ body {
     height: auto;
     margin-right: 10px;
 }
+
+/* 800px and above */
+
+@media (min-width: 800px) {
+    .card {
+        flex-direction: row;
+        max-width: 600px;
+    }
+    
+    .card__image {
+        width: 50%;
+    }
+
+    .card__content {
+        width: 50%;
+        padding: 0 2rem 1.5rem 2rem;
+    }
+
+    .image-mobile {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card__type {
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .card__title {
+        font-size: 2.1875rem;
+        margin-bottom: 16px;
+    }
+
+    .card__description {
+        margin-bottom: 2rem;
+    }
+
+    .card__prices {
+        margin-bottom: 32px;
+    }
+
+    picture {
+        vertical-align: bottom;
+    }
+}
